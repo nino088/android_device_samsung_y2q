@@ -47,8 +47,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		export OF_FLASHLIGHT_ENABLE=1
 		export OF_FL_PATH1="/system/flashlight"
 		export OF_FL_PATH2=""
-    		export OF_SCREEN_H="2400"
-		export FOX_VERSION="R12.1"
+    	export OF_SCREEN_H="2400"
 		export OF_CLOCK_POS=1
 		export OF_ALLOW_DISABLE_NAVBAR=0
 		export OF_USE_SYSTEM_FINGERPRINT=1
@@ -58,7 +57,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		export OF_STATUS_INDENT_RIGHT="48"
 		export OF_STATUS_H="88"
 		export OF_USE_GREEN_LED=0
-    		export OF_MAINTAINER="nino"
+    	export FOX_MAINTAINER="nino"
 
 		#R11
 		export FOX_R11=1
